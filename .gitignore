@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyTorch & Hugging Face model checkpoints / weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+secbert_tram1/
+secbert_tram1_best/
+tram1_export/
+tram2_export/
+rcATT_export/
+*_secbert_export.zip
+
+# Unpacked large CSVs (keep zip archive in dataset/)
+dataset/training_data_original.csv
+training_data_original.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

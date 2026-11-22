@@ -1,0 +1,348 @@
+% ============================================================
+% Core ATT&CK / CTI references
+% ============================================================
+
+
+@techreport{strom2018attack,
+  author      = {Strom, Blake E. and Applebaum, Andy and Miller,
+                 Doug P. and Nickels, Kathryn C. and Pennington,
+                 Adam G. and Thomas, Cody B.},
+  title       = {{MITRE ATT\&CK}: Design and Philosophy},
+  institution = {The MITRE Corporation},
+  year        = {2018}
+}
+
+
+@misc{mitre2023tram,
+  author       = {{MITRE Engenuity Center for Threat-Informed Defense}},
+  title        = {Threat Report {ATT\&CK} Mapper ({TRAM})},
+  year         = {2023},
+  howpublished = {\url{https://ctid.mitre.org/projects/
+                  threat-report-attck-mapper-tram/}},
+  note         = {Accessed: June 2025}
+}
+
+
+@article{sun2023cti,
+  author  = {Sun, Nan and Ding, Ming and Jiang, Jian and
+             Xu, Wenjing and Mo, Xiaolei and Tai, Yonghang and
+             Zhang, Jun},
+  title   = {Cyber Threat Intelligence Mining for Proactive
+             Cybersecurity Defense: A Survey and New Perspectives},
+  journal = {IEEE Communications Surveys \& Tutorials},
+  year    = {2023},
+  doi     = {10.1109/COMST.2023.3273282}
+}
+
+% ============================================================
+% ATT&CK Mapping / TTP Extraction papers
+% ============================================================
+
+
+@inproceedings{husari2017ttpdrill,
+  author    = {Husari, Ghaith and Al-Shaer, Ehab and Ahmed, Mohammed
+               and Chu, Bill and Niu, Xi},
+  title     = {{TTPDrill}: Automatic and Accurate Extraction of Threat
+               Actions from Unstructured Text of {CTI} Sources},
+  booktitle = {Proceedings of the 33rd Annual Computer Security
+               Applications Conference (ACSAC)},
+  year      = {2017},
+  pages     = {103--115}
+}
+
+
+@article{li2024automated,
+  author  = {Li, Longjun and Huang, Cheng and Chen, Jiaxin},
+  title   = {Automated Discovery and Mapping {ATT\&CK} Tactics and
+             Techniques for Unstructured Cyber Threat Intelligence},
+  journal = {Computers \& Security},
+  volume  = {140},
+  pages   = {103815},
+  year    = {2024},
+  doi     = {10.1016/j.cose.2024.103815}
+}
+
+
+@inproceedings{orbinato2022automatic,
+  author    = {Orbinato, Vittorio and Barbaraci, Marco and
+               Natella, Roberto and Cotroneo, Domenico},
+  title     = {Automatic Mapping of Unstructured Cyber Threat
+               Intelligence: An Experimental Study},
+  booktitle = {2022 IEEE 33rd International Symposium on Software
+               Reliability Engineering (ISSRE)},
+  year      = {2022},
+  pages     = {181--192}
+}
+
+% ============================================================
+% PRIMARY COMPARISON PAPER — closest to our research direction
+% ============================================================
+
+
+@article{albarrak2025acmapper,
+  author  = {Albarrak, Majed and Alqudhaibi, Adel and Jagtap, Sandeep},
+  title   = {{AC\_MAPPER}: A Robust Approach to {ATT\&CK} Technique
+             Classification Using Input Augmentation and Class
+             Rebalancing},
+  journal = {International Journal of Information Security},
+  volume  = {24},
+  number  = {6},
+  pages   = {232},
+  year    = {2025},
+  doi     = {10.1007/s10207-025-01146-5}
+}
+
+% ============================================================
+% rcATT — dataset paper (MUST CITE when using rcATT dataset)
+% ============================================================
+
+
+@inproceedings{legoy2020rcatt,
+  author    = {Legoy, Valentine and Caselli, Marco and
+               Seifert, Christoph and Peter, Andreas},
+  title     = {Automated Retrieval of {ATT\&CK} Tactics and Techniques
+               for Cyber Threat Reports},
+  booktitle = {Proceedings of the Workshop on Attackers and Cyber-Crime
+               Operations (WACCO), co-located with IEEE EuroS\&P},
+  year      = {2020},
+  note      = {Dataset available at
+               \url{https://github.com/vlegoy/rcATT}}
+}
+
+% ============================================================
+% BERT / Transformer-based models
+% ============================================================
+
+
+@inproceedings{devlin2019bert,
+  author    = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton
+               and Toutanova, Kristina},
+  title     = {{BERT}: Pre-training of Deep Bidirectional Transformers
+               for Language Understanding},
+  booktitle = {Proceedings of NAACL-HLT},
+  year      = {2019},
+  pages     = {4171--4186}
+}
+
+
+@inproceedings{secbert2022,
+  author    = {Loukas, Lefteris and Fergadiotis, Manos and Chalkidis, Ilias and Chern, Euan and Malakasiotis, Prodromos and Androutsopoulos, Ion},
+  title     = {{FiNER}: Financial Numeric Entity Recognition for {XBRL} Tagging},
+  booktitle = {Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {4419--4431},
+  year      = {2022},
+  doi       = {10.18653/v1/2022.acl-long.303}
+}
+
+@misc{jackaduma2020secbert,
+  author       = {Jackaduma},
+  title        = {{SecBERT}: A {BERT} Language Model for Cybersecurity},
+  year         = {2020},
+  howpublished = {\url{https://github.com/jackaduma/SecBERT}},
+  note         = {Accessed: June 2025}
+}
+
+
+@inproceedings{aghaei2022securebert,
+  author    = {Aghaei, Ehsan and Niu, Xi and Shadid, Waseem
+               and Al-Shaer, Ehab},
+  title     = {{SecureBERT}: A Domain-Specific Language Model for
+               Cybersecurity},
+  booktitle = {International Conference on Security and Privacy
+               in Communication Systems},
+  year      = {2022},
+  pages     = {39--56}
+}
+
+
+@inproceedings{wolf2020transformers,
+  author    = {Wolf, Thomas and Debut, Lysandre and Sanh, Victor
+               and Chaumond, Julien and Delangue, Clement and
+               Moi, Anthony and Cistac, Pierric and Rault, Tim and
+               Louf, Remi and Funtowicz, Morgan and Brew, Jamie},
+  title     = {Transformers: State-of-the-Art Natural Language
+               Processing},
+  booktitle = {Proceedings of the 2020 Conference on Empirical
+               Methods in Natural Language Processing: System
+               Demonstrations},
+  year      = {2020},
+  pages     = {38--45}
+}
+
+% ============================================================
+% Long-document Transformers (motivation for rcATT limitation)
+% ============================================================
+
+
+@inproceedings{beltagy2020longformer,
+  author    = {Beltagy, Iz and Peters, Matthew E. and Cohan, Arman},
+  title     = {Longformer: The Long-Document Transformer},
+  booktitle = {arXiv preprint arXiv:2004.05150},
+  year      = {2020}
+}
+
+
+@inproceedings{zaheer2020bigbird,
+  author    = {Zaheer, Manzil and Guruganesh, Guru and
+               Dubey, Kumar Avinava and Ainslie, Joshua and
+               Alberti, Chris and Ontanon, Santiago and
+               Pham, Philip and Ravula, Anirudh and Wang, Qifan and
+               Yang, Li and Ahmed, Amr},
+  title     = {Big {Bird}: Transformers for Longer Sequences},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {33},
+  year      = {2020}
+}
+
+% ============================================================
+% Data Augmentation papers
+% ============================================================
+
+
+@inproceedings{kobayashi2018contextual,
+  author    = {Kobayashi, Sosuke},
+  title     = {Contextual Augmentation: Data Augmentation by Words
+               with Paradigmatic Relations},
+  booktitle = {Proceedings of the 2018 Conference of the North
+               {A}merican Chapter of the Association for
+               Computational Linguistics: Human Language Technologies
+               (NAACL-HLT)},
+  year      = {2018},
+  pages     = {452--457}
+}
+
+
+@inproceedings{wei2019eda,
+  author    = {Wei, Jason and Zou, Kai},
+  title     = {{EDA}: Easy Data Augmentation Techniques for Boosting
+               Performance on Text Classification Tasks},
+  booktitle = {Proceedings of the 2019 Conference on Empirical
+               Methods in Natural Language Processing (EMNLP)},
+  year      = {2019},
+  pages     = {6382--6388}
+}
+
+
+@misc{ma2019nlpaug,
+  author       = {Ma, Edward},
+  title        = {{NLP} Augmentation},
+  year         = {2019},
+  howpublished = {\url{https://github.com/makcedward/nlpaug}},
+  note         = {Accessed: June 2025}
+}
+
+% ============================================================
+% Class imbalance & Loss functions
+% ============================================================
+
+
+@inproceedings{lin2017focal,
+  author    = {Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross
+               and He, Kaiming and Doll{\'a}r, Piotr},
+  title     = {Focal Loss for Dense Object Detection},
+  booktitle = {Proceedings of the IEEE International Conference
+               on Computer Vision (ICCV)},
+  year      = {2017},
+  pages     = {2980--2988}
+}
+
+
+@article{kim2022ttp,
+  author  = {Kim, Hyeonsang and Kim, Hyunsoo},
+  title   = {Comparative Experiment on {TTP} Classification with
+             Class Imbalance Using Oversampling from {CTI} Dataset},
+  journal = {Security and Communication Networks},
+  volume  = {2022},
+  pages   = {5021125},
+  year    = {2022}
+}
+
+% ============================================================
+% Multi-label classification methodology
+% ============================================================
+
+
+@article{tsoumakas2007multilabel,
+  author  = {Tsoumakas, Grigorios and Katakis, Ioannis},
+  title   = {Multi-Label Classification: An Overview},
+  journal = {International Journal of Data Warehousing and Mining},
+  volume  = {3},
+  number  = {3},
+  pages   = {1--13},
+  year    = {2007}
+}
+
+
+@inproceedings{sechidis2011,
+  author    = {Sechidis, Konstantinos and Tsoumakas, Grigorios
+               and Vlahavas, Ioannis},
+  title     = {On the Stratification of Multi-Label Data},
+  booktitle = {Machine Learning and Knowledge Discovery in
+               Databases (ECML PKDD)},
+  year      = {2011},
+  pages     = {145--158}
+}
+
+% ============================================================
+% Supporting tools and libraries
+% ============================================================
+
+
+@article{sklearn2011,
+  author  = {Pedregosa, Fabian and Varoquaux, Gael and Gramfort,
+             Alexandre and Michel, Vincent and Thirion, Bertrand
+             and Grisel, Olivier and Blondel, Mathieu and
+             Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent
+             and Vanderplas, Jake and Passos, Alexandre and
+             Cournapeau, David and Brucher, Matthieu and Perrot,
+             Matthieu and Duchesnay, Edouard},
+  title   = {Scikit-learn: Machine Learning in {Python}},
+  journal = {Journal of Machine Learning Research},
+  volume  = {12},
+  pages   = {2825--2830},
+  year    = {2011}
+}
+
+% ============================================================
+% Generative AI / Future directions
+% ============================================================
+
+
+@article{gen_ai_review2025,
+  author  = {Romit, Siddharth and others},
+  title   = {Generative {AI} Revolution in Cybersecurity: A
+             Comprehensive Review of Threat Intelligence
+             and Operations},
+  journal = {Artificial Intelligence Review},
+  year    = {2025},
+  doi     = {10.1007/s10462-025-11219-5}
+}
+
+
+@inproceedings{bayer2022cybersecbert,
+  author    = {Bayer, Markus and Kaufhold, Marc-Andr{\'e} and
+               Reuter, Christian},
+  title     = {{CySecBERT}: A Domain-Adapted Language Model for
+               the Cybersecurity Domain},
+  booktitle = {Proceedings of the 2022 ACM Symposium on Document
+               Engineering (DocEng)},
+  year      = {2022},
+  pages     = {1--4}
+}
+
+
+@inproceedings{paszke2019pytorch,
+  author    = {Paszke, Adam and Gross, Sam and Massa, Francisco
+               and Lerer, Adam and Bradbury, James and Chanan,
+               Gregory and Killeen, Trevor and Lin, Zeming and
+               Gimelshein, Natalia and Antiga, Luca and Desmaison,
+               Alban and Kopf, Andreas and Yang, Edward and DeVito,
+               Zachary and Raison, Martin and Tejani, Alykhan and
+               Chilamkurthy, Sasank and Steiner, Benoit and Fang,
+               Lu and Bai, Junjie and Chintala, Soumith},
+  title     = {{PyTorch}: An Imperative Style, High-Performance
+               Deep Learning Library},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {32},
+  year      = {2019}
+}
