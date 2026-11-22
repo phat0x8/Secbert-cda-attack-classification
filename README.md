@@ -155,12 +155,9 @@ This repository will be released under the MIT License.
 
 ## Contact
 
-**Tan Phat Nguyen**
+**Tan Phat Nguyen (`@phat0x8`)**
 
-Faculty of Information Assurance
+Faculty of Information Assurance — FPT University (Ho Chi Minh City, Vietnam)
 
-FPT University
-
-Email: *Coming Soon*
-
-GitHub: https://github.com/phat1310
+- GitHub: [https://github.com/phat0x8](https://github.com/phat0x8)
+- LinkedIn: [https://www.linkedin.com/in/nguyen-tan-phat-6a4860252/](https://www.linkedin.com/in/nguyen-tan-phat-6a4860252/)

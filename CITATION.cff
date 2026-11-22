@@ -1,1 +1,16 @@
-
+cff-version: 1.2.0
+message: "If you use this research or code, please cite it as below."
+title: "MITRE ATT&CK Technique Classification using SecBERT and Contextual Data Augmentation (CDA)"
+authors:
+  - family-names: "Nguyen"
+    given-names: "Tan Phat"
+    affiliation: "Faculty of Information Assurance, FPT University, Ho Chi Minh City, Vietnam"
+repository-code: "https://github.com/phat0x8/Secbert-cda-attack-classification"
+keywords:
+  - cyber-threat-intelligence
+  - mitre-attack
+  - secbert
+  - contextual-data-augmentation
+  - class-imbalance
+  - natural-language-processing
+license: MIT
